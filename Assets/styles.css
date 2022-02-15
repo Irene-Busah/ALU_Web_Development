@@ -229,7 +229,7 @@ li {
 }
 
 .info {
-  padding-left: 150px;
+  padding-left: 250px;
 }
 
 .myname {
@@ -341,3 +341,26 @@ textarea {
   /* resize: none; */
   color: white;
 }
+
+
+/* ============================================== TABLE ===================================== */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    transition: all 0.5s;
+  }
+
+  th{
+      color: orange;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
