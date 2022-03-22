@@ -5,7 +5,7 @@
         $country = $_POST['country'];
         $message = $_POST['message'];
     
-        $mailTo = "i.busah123@gmail.com";
+        $mailTo = "i.busah@alustudent.com";
         $headers = "From: ".$mailFrom;
         $text = "You have a message ".$name."\n\n".$message;
     
